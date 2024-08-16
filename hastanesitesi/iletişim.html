@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+      body {
+        background-color: rgb(84, 194, 245);
+      }
+      footer {
+      background-color: #111;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">
+        <img src="https://www.petmania.com.tr/wp-content/uploads/2015/07/Petmania-Logo-Mert-Eden.png" alt="logo" width="100">
+      </a></li>
+      <li><a class="active" href="index.html">Ana Sayfa</a></li>
+      <li><a href="hakkimizda.html">Hakkımızda</a></li>
+      <li><a href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+      <li><a href="randevu.html">Randevu</a></li>
+      <li><a href="iletişim.html">İletişim</a></li>
+      <li><a href="doktorlarimiz.html">Doktorlarımız</a></li>
+    </ul>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3011.681024887248!2d28.649028!3d40.988465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b5608b571b6907%3A0x8e53dfed26b0cb8a!2sPetmania%20Veteriner%20Klini%C4%9Fi!5e0!3m2!1str!2str!4v1723558259807!5m2!1str!2str"
+      width="100%"
+      height="350"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <h1>Bize Ulaşın</h1>
+    <form id="contactForm" action="/action_page.php" method="post">
+        <label>İsim</label>
+        <input type="text" name="senderName" id="senderName" required="required" maxlength="40">
+        <label>Cep Telefonu</label>
+        <input type="text" name="phoneNumber" id="phoneNumber" required="required" maxlength="50">
+        <label>E-posta</label>
+        <input type="email" name="senderEmail" id="senderEmail" required="required" maxlength="50">
+        <label>Mesaj</label>
+        <textarea name="message" id="message" required="required"></textarea>
+        <input name="recipientName" id="recipientName" type="hidden" value="İsim">
+        <input name="recipientSubject" id="recipientSubject" type="hidden" value="Konu">
+        <input name="recipientMail" id="recipientMail" type="hidden" value="petmaniavet@gmail.com">
+        <input type="submit" class="button" id="sendMessage" name="sendMessage" value="Gönder">
+    </form>
+    <br><br>
+    <img src="images/veteriner.jpg.crdownload" alt="veto" width="200">
+    <p class="label"><strong>Adres:</strong> Barış Mahallesi Eğitim Vadisi Bulvarı no 21 Beylikdüzü / İstanbul</p>
+    <p class="label"><strong>Telefon:</strong> 0 (212) 873 93 23 - 0 (506) 770 15 00</p>
+    <p class="label"><strong>E-mail:</strong> petmaniavet@gmail.com, bilgi@petmania.com.tr</p>
+    <footer>
+      <p>
+        © Copyright 2002 - 2024.|  www.petmania.com.tr | Her Hakkı Saklıdır. |</p>
+        <ul>
+          <li><a class="active" href="https://www.facebook.com/petmaniaveteriner" target="_blank">facebook</a></li>
+          <li><a href="https://x.com/klinikpetmania" target="_blank">Twitter</a></li>
+          <li><a href="https://www.instagram.com/petmaniaveteriner/" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+  </body>
+</html>
