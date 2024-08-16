@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+      body {
+        background-color: rgb(223, 224, 224);
+      }
+      footer {
+        background-color: #111;
+        padding: 10px;
+        text-align: left;
+        color: white;
+      }
+      .header-ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000000;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="header-ul">
+      <li>
+        <a href="index.html">
+          <img
+            src="https://dijitalgezgin.com/wp-content/uploads/2019/08/dg-logo-beyaz.png"
+            alt="logo"
+            width="100"
+          />
+        </a>
+      </li>
+      <li><a class="active" href="index.html">Ana Sayfa</a></li>
+      <li><a href="#">Türkiye</a></li>
+      <li><a href="#">Dünya</a></li>
+      <li><a href="#">Seyahat İpuçları</a></li>
+      <li><a href="#">İletişim</a></li>
+    </ul>
+    <center />
+    <h1>Bize Ulaşın</h1>
+    <form id="contactForm" action="/action_page.php" method="post">
+      <label>İsim</label>
+      <br /><br />
+      <input
+        type="text"
+        name="senderName"
+        id="senderName"
+        required="required"
+        maxlength="40"
+      />
+      <br />
+      <br /><br />
+      <label>Cep Telefonu</label>
+      <br /><br />
+      <input
+        type="text"
+        name="phoneNumber"
+        id="phoneNumber"
+        required="required"
+        maxlength="50"
+      />
+      <br />
+      <br /><br />
+      <label>E-posta</label>
+      <br /><br />
+      <input
+        type="email"
+        name="senderEmail"
+        id="senderEmail"
+        required="required"
+        maxlength="50"
+      />
+      <br /><br />
+      <label>Mesaj</label>
+      <br /><br />
+      <textarea name="message" id="message" required="required"></textarea>
+      <input
+        name="recipientName"
+        id="recipientName"
+        type="hidden"
+        value="İsim"
+      />
+      <br /><br />
+      <input
+        name="recipientSubject"
+        id="recipientSubject"
+        type="hidden"
+        value="Konu"
+      />
+      <input
+        name="recipientMail"
+        id="recipientMail"
+        type="hidden"
+        value="petmaniavet@gmail.com"
+      />
+      <input
+        type="submit"
+        class="button"
+        id="sendMessage"
+        name="sendMessage"
+        value="Gönder"
+      />
+    </form>
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <footer>
+      <p>
+        © Copyright 2002 - 2024.| www.dijitalgezgin.com.tr | Her Hakkı Saklıdır.
+        |
+      </p>
+      <ul>
+        <li>
+          <a
+            class="active"
+            href="https://www.facebook.com/petmaniaveteriner"
+            target="_blank"
+            >facebook</a
+          >
+        </li>
+        <li>
+          <a href="https://x.com/klinikpetmania" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/petmaniaveteriner/" target="_blank"
+            >Instagram</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
