@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/main.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/8e2405c18c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="sidebar">
+        <div class="logo">
+          <a href="index.html" title="Dash">
+            <img src="images/dash.svg" alt="Dash Logo" />
+          </a>
+        </div>
+        <nav class="sidebar__nav">
+          <h3>TASK</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-regular fa-calendar"></i>Calendar</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-regular fa-envelope"></i>Messages</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-gift"></i>Offers</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-regular fa-user"></i>Users</a>
+            </li>
+          </ul>
+          <h3>USER</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-arrow-trend-up"></i>Trends</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-cloud-arrow-down"></i>Downloads</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="sign-out">
+          <a href="#"
+            ><i class="fa-solid fa-arrow-right-from-bracket"></i>Sign Out</a
+          >
+        </div>
+      </div>
+      <div class="dashboard">
+        <header class="header">
+          <div class="header__title">
+            <h1>
+              <span class="header__title-icon"
+                ><i class="fa-solid fa-angles-left"></i
+              ></span>
+              Dashboard
+            </h1>
+          </div>
+          <nav class="header__nav">
+            <ul>
+              <li class="notification">
+                <a href="#"><i class="fa-regular fa-bell"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-gear"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+              </li>
+              <li class="header_nav-avatar busy">
+                <a href="#">
+                  <img src="images/avatar.png" alt="User" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="content">
+          <div class="content__item analytics">
+            <div class="analytics_header">
+              <h1>Analytics</h1>
+              <div class="thisweek">
+                <p>This week</p>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <img src="images/analitics.png" alt="" />
+          </div>
+          <div class="content__item refferals">
+            <div class="refferals_header">
+              <h2>Refferals</h2>
+              <a href="#"
+                ><button>Today <i class="fa-solid fa-chevron-down"></i></button
+              ></a>
+            </div>
+
+            <div class="tone-main-container">
+              <img src="images/Ringchart.png" alt="" />
+              <div class="tone-container">
+                <div class="tone1">
+                  <span></span>
+                  <p>Direct</p>
+                </div>
+                <div class="tone2">
+                  <span></span>
+                  <p>Refferal</p>
+                </div>
+                <div class="tone3">
+                  <span></span>
+                  <p>Social</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content__item friends">
+            <div class="friends-container">
+              <div class="friends-header">
+                <h3>Friends</h3>
+              </div>
+              <div class="friends-item">
+                <div class="friends-main__info">
+                  <img src="images/Avataravatar.png" alt="" />
+                  <div class="friends__info">
+                    <h2 class="name">Gopichand Sana</h2>
+                    <p class="description">UX Researcher</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="friends-item">
+                <div class="friends-main__info">
+                  <img src="images/Avataravatar.png" alt="" />
+                  <div class="friends__info">
+                    <h2 class="name">Yi Hanying</h2>
+                    <p class="description">UX Researcher</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="friends-item">
+                <div class="friends-main__info">
+                  <img src="images/Avataravatar.png" alt="" />
+                  <div class="friends__info">
+                    <h2 class="name">Dusya Sigachyova</h2>
+                    <p class="description">UX Researcher</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="friends-item">
+                <div class="friends-main__info">
+                  <img src="images/Avataravatar.png" alt="" />
+                  <div class="friends__info">
+                    <h2 class="name">Awaatif Al Sadek</h2>
+                    <p class="description">UX Researcher</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="friends-item">
+                <div class="friends-main__info">
+                  <img src="images/Avataravatar.png" alt="" />
+                  <div div class="friends__info">
+                    <h2 class="name">Wim Willems</h2>
+                    <p class="description">UX Researcher</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </div>
+          </div>
+          <div class="content__item tasks">
+            <div class="tasks-header">
+              <h2>Tasks</h2>
+              <a href="#"
+                ><button>Today <i class="fa-solid fa-chevron-down"></i></button
+              ></a>
+            </div>
+            <div class="checkboxes">
+              <label class="container"
+                >Work on new kit style guide and intro
+                <input type="checkbox" checked="checked" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Figma design system
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Showcase and newsletter
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Showcase and newsletter
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"
+                >Have a break!
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="checkbox-end">
+              <div class="placeholder">
+                <input type="text" name="item" placeholder="Add new item..." />
+              </div>
+              <a href="#"
+                ><button>Today <i class="fa-solid fa-chevron-down"></i></button
+              ></a>
+            </div>
+          </div>
+          <div class="content__item rank">
+            <div class="rank-container">
+              <div class="rank-texts">
+                <h2>Rank</h2>
+                <p>Beginner</p>
+              </div>
+              <img src="images/48pxnihat.png" alt="" />
+            </div>
+          </div>
+          <div class="content__item week">
+            <div class="week-container">
+              <div class="week-texts">
+                <h2>This Week</h2>
+                <p>Progress</p>
+              </div>
+              <img src="images/Graphgraph.png" alt="" />
+            </div>
+          </div>
+          <div class="content__item month">
+            <div class="month-container">
+              <div class="month-texts">
+                <h2>This Week</h2>
+                <p>Progress</p>
+              </div>
+              <img src="images/Giftgift.png" alt="" />
+            </div>
+          </div>
+          <div class="content__item revenue">
+            <div class="revenue-container">
+              <div class="revenue-texts">
+                <h2>Revenue</h2>
+                <p>$129,850</p>
+              </div>
+              <a href="#"
+                ><button><i class="fa-solid fa-angle-up"></i>15%</button></a
+              >
+            </div>
+          </div>
+          <div class="content__item activity">
+            <div class="activity-header">
+              <h2>Activity</h2>
+              <div class="activity-week-select">
+                <p>This week</p>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="activity-items">
+              <div class="profile">
+                <img src="images/Imageavatar2.png" alt="" />
+                <div class="profile-texts">
+                  <h2>Amarachi Nkechi</h2>
+                  <p>Uploaded Team.zip file on shared cloud</p>
+                </div>
+                <div class="avaible">
+                  <p>Just now</p>
+                </div>
+              </div>
+              <div class="activity-items">
+                <div class="profile">
+                  <img src="images/Imageavatar2.png" alt="" />
+                  <div class="profile-texts">
+                    <h2>Amarachi Nkechi</h2>
+                    <p>Uploaded Team.zip file on shared cloud</p>
+                  </div>
+                  <div class="avaible">
+                    <p>Just now</p>
+                  </div>
+                </div>
+                <div class="activity-items">
+                  <div class="profile">
+                    <img src="images/Imageavatar2.png" alt="" />
+                    <div class="profile-texts">
+                      <h2>Amarachi Nkechi</h2>
+                      <p>Uploaded Team.zip file on shared cloud</p>
+                    </div>
+                    <div class="avaible">
+                      <p>Just now</p>
+                    </div>
+                  </div>
+                  <div class="activity-items">
+                    <div class="profile">
+                      <img src="images/Imageavatar2.png" alt="" />
+                      <div class="profile-texts">
+                        <h2>Amarachi Nkechi</h2>
+                        <p>Uploaded Team.zip file on shared cloud</p>
+                      </div>
+                      <div class="avaible">
+                        <p>Just now</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content__item banner">
+            <div class="banner-left">
+              <h2>Become a pro</h2>
+              <p>
+                Feeling lost? chat <br />
+                with support
+              </p>
+              <button>Get started</button>
+            </div>
+            <img src="images/Illustrationastronot.png" alt="" />
+          </div>
+        </section>
+        <div class="footer">
+          <p>© 2021 Fabrx UI</p>
+          <div class="links">
+            <a href="#">Services</a>
+            <a href="#">Features</a>
+            <a href="#">About</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
